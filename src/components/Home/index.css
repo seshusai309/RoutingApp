@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+.commonCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70vh;
+}
+
+.cmnImg {
+  height: 300px;
+  width: 300px;
+}
+
+.heading {
+  font-size: 70px;
+  color: #551e53;
+  font-weight: 400;
+}

@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+
+.flexCheck {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+* {
+  font-family: Roboto;
+}
+ul {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.subnav1 {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.subnav2 {
+  display: flex;
+}
+
+.ulOrder {
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+}
+
+.navImg {
+  height: 60px;
+  width: 60px;
+}
